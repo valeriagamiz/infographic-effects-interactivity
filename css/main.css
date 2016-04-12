@@ -1,0 +1,168 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f7911e;
+}
+
+
+.st0 {
+  fill: #f7911e;
+  stroke: #00aeef;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #fff;
+}
+
+.st2 {
+  fill: #fdb943;
+}
+
+.st3 {
+  fill: #f9ba43;
+}
+
+.st4 {
+  fill: #f9b943;
+}
+
+.st5 {
+  fill: #be1e2d;
+}
+
+.st6 {
+  fill: #8e1923;
+}
+
+.st7 {
+  fill: #e6d1c4;
+}
+
+.st8 {
+  fill: none;
+}
+
+.st9 {
+  fill: #d1d3d4;
+}
+
+.st10 {
+  fill: #c2b59b;
+}
+
+.st11 {
+  fill: #9b8579;
+}
+
+style {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+#cat-eyes {
+  animation: cateyes 1s linear infinite  alternate;
+}
+
+#dog-eyes {
+  animation: dogeyes 1s infinite alternate;
+}
+
+@keyframes cateyes {
+
+  from { transform: translate(-1px, -2px); }
+
+  to { transform: translate(7px, 1px); }
+
+}
+
+@keyframes dogeyes {
+
+  from { transform: translate(-1px, -2px); }
+
+  to { transform: translate(-6px, -1px); }
+
+}
+
+#circle-cat {
+  transition: all .5s linear;
+}
+
+#circle-dog {
+  transition: all .5s linear;
+}
+
+#background_circles:hover #circle-cat,
+#background_circles:hover #circle-dog {
+  fill: #f7911e;
+  transform: translate(10px, 8px);
+}
+
+.dog-person{
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+.dogperson-animate .dog-person{
+  opacity: 1;
+  transition: dogp all 200ms ease-in;
+}
+
+@keyframes dogp-animate{
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(30deg);
+  }
+  60% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media only screen and (min-width: 25em) {
+
+  #layer-1 {
+    margin: 0;
+    width: 100%;
+    height: 1200px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  #layer-1 {
+    width: 100%;
+    height: 1240px;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .dogmen {
+    width: 100%;
+    height: 1200px;
+    margin-top: 100px;
+  }
+}
