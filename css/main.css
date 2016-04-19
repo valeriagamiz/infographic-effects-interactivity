@@ -117,16 +117,16 @@ svg {
   transform: translate(10px, 8px);
 }
 
-.dog-person{
+.dog-person {
   opacity: 0;
   transition: all 200ms ease-in;
 }
-.dogperson-animate .dog-person{
+.dogperson-animate .dog-person {
   opacity: 1;
   transition: dogp 200ms ease-in;
 }
 
-@keyframes dogp-animate{
+@keyframes dogp-animate {
   0% {
     transform: rotate(0deg);
   }
@@ -141,7 +141,7 @@ svg {
   }
 }
 
-.dog-chart{
+.dog-chart {
   animation: jiggle 3s forwards;
 }
 
