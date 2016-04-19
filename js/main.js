@@ -7,5 +7,3 @@ $dogchart.waypoint(function (direction) {
     $dogchart.removeClass('dogperson-animate');
   }
 }, {offset: '50%'});
-
-$('.click').localScroll();
