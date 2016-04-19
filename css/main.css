@@ -140,6 +140,19 @@ svg {
     transform: rotate(0deg);
   }
 }
+
+.dog-chart{
+  animation: jiggle 3s forwards;
+}
+
+@keyframes jiggle {
+
+  from { transform: translate(150px, -1px); }
+
+  to { transform: translate(0px, 0px); }
+
+}
+
 @media only screen and (min-width: 25em) {
 
   #layer-1 {
