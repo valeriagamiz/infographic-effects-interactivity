@@ -111,8 +111,8 @@ svg {
   transition: all .5s linear;
 }
 
-#background_circles:hover #circle-cat,
-#background_circles:hover #circle-dog {
+#background-circles:hover #circle-cat,
+#background-circles:hover #circle-dog {
   fill: #f7911e;
   transform: translate(10px, 8px);
 }
