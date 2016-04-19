@@ -1,6 +1,6 @@
 var $dogchart = $('.dog-chart');
 
-$dogchart.waypoint(function(direction) {
+$dogchart.waypoint(function (direction) {
   if (direction== 'down'){
     $dogchart.addClass('dogperson-animate');
   } else {
