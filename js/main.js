@@ -1,11 +1,11 @@
 var $dogchart = $('.dog-chart');
 
 $dogchart.waypoint(function (direction) {
-  if (direction== 'down'){
+  if (direction == 'down') {
     $dogchart.addClass('dogperson-animate');
   } else {
-  $dogchart.removeClass('dogperson-animate');
+    $dogchart.removeClass('dogperson-animate');
   }
-}, {offset:'50%'});
+}, {offset: '50%'});
 
 $('.click').localScroll();
